@@ -24,6 +24,7 @@ class Database(context: Context, databaseName: String) : SQLiteOpenHelper(contex
             )
 
 
+
             db.execSQL(
                 "INSERT INTO $TABLE ($COLUMN_LOGIN, $COLUMN_PASS) VALUES ('Admin', '1');"
             )
